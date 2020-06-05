@@ -27,9 +27,9 @@ Qemu : c86274bc2e34295764fb44c2aef3cf29623f9b4b
 
 Machine Specs:
 
-MacBook Air (Early 2015)
-OS - macOS Mojave 10.14.6
-Processor - 1.6 GHz Intel Core i5
-Memory - 8 GB 1600 MHz DDR3
+MacBook Air (Early 2015) <br>
+OS - macOS Mojave 10.14.6 <br>
+Processor - 1.6 GHz Intel Core i5 <br>
+Memory - 8 GB 1600 MHz DDR3 <br>
 Graphics - Intel HD Graphics 6000 1536 MB
 
