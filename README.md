@@ -3,27 +3,11 @@ Build times and build sizes of LLVM, MySQL-Server, qemu compared between Apple C
 
 
 
-
-                  System Compiler (Apple Clang)                           LLVM Compiler
-                  Build Time          Build Size                    Build Time          Build Size
-                                      (on disk)                                         (on disk)
-
-MySQL-Server      real	83m53.688s    941.04MB                      real	109m39.282s    951.2MB 
-                  user	75m29.850s                                  user	99m43.071s
-                  sys	5m41.172s                                     sys	6m13.283s
-
-
-
-LLVM              real	72m0.505s     1.59GB                        real	97m59.186s     1.57GB
-                  user	260m44.044s                                 user	356m12.425s
-                  sys	11m3.760s                                     sys	12m28.626s
-
-
-
-Qemu              real	6m48.850s     355.6MB                       real	8m34.970s      361.7MB
-                  user	5m33.292s                                   user	7m10.967s
-                  sys	1m2.211s                                      sys	1m1.773s
-  
+|              | Build Time                                        | Build Size (on disk) | Build Time                                          | Build Size (on disk) |
+|--------------|---------------------------------------------------|----------------------|-----------------------------------------------------|----------------------|
+| MySQL-Server | real  83m53.688s user  75m29.850s sys   5m41.172s | 941.04MB             | real  109m39.282s user  99m43.071s sys   6m13.283s  | 951.2MB              |
+| LLVM         | real  72m0.505s user  260m44.044s sys   11m3.760s | 1.59GB               | real  97m59.186s user  356m12.425s sys   12m28.626s | 1.57GB               |
+| qemu         | real  6m48.850s user  5m33.292s sys   1m2.211s    | 355.6MB              | real  8m34.970s user  7m10.967s sys   1m1.773s      | 361.7MB              |
 
 
 Apple Clang Version - Apple LLVM version 10.0.1 (clang-1001.0.46.4)
