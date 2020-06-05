@@ -3,12 +3,11 @@ Build times and build sizes of LLVM, MySQL-Server, qemu compared between Apple C
 
 
 
-|              | Build Time                                        | Build Size (on disk) | Build Time                                          | Build Size (on disk) |
-|--------------|---------------------------------------------------|----------------------|-----------------------------------------------------|----------------------|
-| MySQL-Server | real  83m53.688s user  75m29.850s sys   5m41.172s | 941.04MB             | real  109m39.282s user  99m43.071s sys   6m13.283s  | 951.2MB              |
-| LLVM         | real  72m0.505s user  260m44.044s sys   11m3.760s | 1.59GB               | real  97m59.186s user  356m12.425s sys   12m28.626s | 1.57GB               |
-| qemu         | real  6m48.850s user  5m33.292s sys   1m2.211s    | 355.6MB              | real  8m34.970s user  7m10.967s sys   1m1.773s      | 361.7MB              |
-
+|              | Build Time                                              | Build Size<br>(on disk) | Build Time                                                | Build Size<br>(on disk) |
+|--------------|---------------------------------------------------------|-------------------------|-----------------------------------------------------------|-------------------------|
+| MySQL-Server | real  83m53.688s<br>user  75m29.850s<br>sys   5m41.172s | 941.04MB                | real  109m39.282s<br>user  99m43.071s<br>sys   6m13.283s  | 951.2MB                 |
+| LLVM         | real  72m0.505s<br>user  260m44.044s<br>sys   11m3.760s | 1.59GB                  | real  97m59.186s<br>user  356m12.425s<br>sys   12m28.626s | 1.57GB                  |
+| qemu         | real  6m48.850s<br>user  5m33.292s<br>sys   1m2.211s    | 355.6MB                 | real  8m34.970s<br>user  7m10.967s<br>sys   1m1.773s      | 361.7MB                 |
 
 Apple Clang Version - Apple LLVM version 10.0.1 (clang-1001.0.46.4)
 
