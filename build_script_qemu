@@ -1,0 +1,15 @@
+#!/bin/bash
+
+git checkout c86274bc2e34295764fb44c2aef3cf29623f9b4b
+
+export CC=/usr/bin/clang
+export CXX=/usr/bin/clang++
+
+#export CC=/Users/vishal/Desktop/llvm/GSoC/llvm-project/build/bin/clang
+#export CXX=/Users/vishal/Desktop/llvm/GSoC/llvm-project/build/bin/clang++
+
+./configure --target-list=x86_64-softmmu
+
+time make
+
+#Measure the size of qemu after build and subtract the initial size before build for build size

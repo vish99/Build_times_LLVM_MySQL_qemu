@@ -1,0 +1,21 @@
+#!/bin/bash
+
+git checkout e5bb542362dfbb6c57a597810d740987afbc4202
+
+mkdir build
+cd build
+
+export CC=/usr/bin/clang
+export CXX=/usr/bin/clang++
+
+#export CC=/Users/vishal/Desktop/llvm/GSoC/llvm-project/build/bin/clang
+#export CXX=/Users/vishal/Desktop/llvm/GSoC/llvm-project/build/bin/clang++
+
+#export CPLUS_INCLUDE_PATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1
+#export LIBRARY_PATH=/usr/lib
+
+cmake -G Ninja -DCMAKE_BUILD_TYPE=Release ../llvm
+
+time ninja
+
+#Measure the size of th build directory
